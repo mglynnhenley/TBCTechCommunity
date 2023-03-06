@@ -18,16 +18,15 @@ h1 {
 	  color: #d4d7fc;
     font-family: pragmatica, sans-serif;
     font-style: normal;
-    font-size: 8vw;
+    font-size: 4vw;
     align-self: flex-start;
     padding-bottom: 5%;
   }
   
 text {
-  font-size: 4vw;
   color:  #d4d7fc;
   font-family: pragmatica, sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 2vw;
+  font-size: 1vw;
 }
