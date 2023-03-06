@@ -1,23 +1,33 @@
-@import url('https://fonts.cdnfonts.com/css/pragmatica'); 
+@font-face {
+  font-family: 'Pragmatica';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('Pragmatica'), url('https://fonts.cdnfonts.com/s/14549/Pragmatica.woff') format('woff');
+}
 
 body {
     background-color: black;
-    color:  #d4d7fc;
-    font-family: pragmatica, sans-serif;
-    font-style: normal;
-    font-size: 4.5vh;
-    padding: 5%;
-    font-weight: lighter;
-    padding-left: 20vw !important;
-    padding-right: 20vw !important;
-    box-sizing: border-box;
-  }
+}
+
+.content {
+  padding-left: 20% !important;
+  padding-right: 20% !important;
+}
 
 h1 {
-	color: #d4d7fc;
+	  color: #d4d7fc;
     font-family: pragmatica, sans-serif;
     font-style: normal;
-    font-size: 9vw;
+    font-size: 8vw;
     align-self: flex-start;
+    padding-bottom: 5%;
   }
   
+text {
+  font-size: 4vw;
+  color:  #d4d7fc;
+  font-family: pragmatica, sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 2vw;
+}

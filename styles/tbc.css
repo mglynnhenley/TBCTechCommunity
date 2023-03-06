@@ -1,4 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/pragmatica'); 
+@font-face {
+  font-family: 'Pragmatica';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('Pragmatica'), url('https://fonts.cdnfonts.com/s/14549/Pragmatica.woff') format('woff');
+}
+
 
 body {
   background-color: black;
@@ -10,8 +16,7 @@ body {
   color: white;
   font-family: pragmatica, sans-serif;
   font-style: normal;
-  font-weight: 100;
-  font-size: 2vh;
+  font-size: 6vh;
   overflow: visible;
   box-sizing: border-box;
 }
