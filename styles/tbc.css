@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/pragmatica'); 
+
+body {
+  background-color: black;
+  box-sizing: border-box;
+
+}
+
+.subtitle {
+  color: white;
+  font-family: pragmatica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 4vh;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.t .b .c {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.t:hover + .wwd {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.t:hover {
+  opacity: 0;
+  transition-delay: 0.1s;
+}
+
+.wwd {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.b:hover + .builders {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.b:hover {
+  opacity: 0;
+  transition-delay: 0.1s;
+}
+
+.builders {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.c:hover + .wrkshop {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.c:hover {
+  opacity: 0;
+  transition-delay: 0.1s;
+}
+
+.wrkshop {
+  pointer-events: none;
+  opacity: 0;
+}

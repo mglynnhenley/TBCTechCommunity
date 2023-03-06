@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/pragmatica'); 
+
+body {
+    background-color: black;
+    color:  white;
+    font-family: pragmatica, sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+    padding: 5%;
+    font-weight: lighter;
+  }
+
+h1 {
+	color: #d4d7fc;
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-size: 120px;
+    align-self: flex-start;
+    font-weight: lighter;
+    padding: 10px;
+  }
+
+h2 {
+    color: white;
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-size: 32px;
+    align-self: flex-start;
+    font-weight: 200px;
+}
+
+hr {
+    background: rgba(255, 255, 255);
+    border: 10px;
+    height: 1px;
+    display: block;
+}
+
+p {
+  color: #d4d7fc;
+  font-family: 'Pragmatica';
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 72px;
+
+}
+
+img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60%;
+}
+
+.image-container {
+    width: 500px;
+    height: 200px;
+    float: centre;
+    margin: 20px;
+    padding: 10px;
+    background-color: #d4d7fc;
+}
+
+#productivity-image:hover ~ #productivity {
+    color: red;
+}
+
+.container-popup {
+    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+    visibility: hidden;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.popup {
+    width: 60%;
+    height: 60%;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 100px;
+  }
+
+.heading {
+  width: 98vw;
+}
+
+section
+{
+  height: 100vh;
+}
+.grid-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.grid-block{
+  width: 20vh;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  border: 60px solid #000;
+  border-left: 20px solid #000;
+  border-right: 10px solid #000;
+}
+
+.slideshow-block{
+  float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  padding-top: 20px;
+}
+
+.slides{
+  width: 100%;
+	height: 100%;
+	z-index:0;
+	visibility: visible;
+}
+.slides.active{
+	visibility: visible;
+}
+.clear{
+  clear: both;
+}
