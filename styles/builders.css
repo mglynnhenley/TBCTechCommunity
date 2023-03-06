@@ -20,7 +20,6 @@ h1 {
     font-style: normal;
     font-size: 4vw;
     align-self: flex-start;
-    padding-bottom: 5%;
   }
   
 text {
@@ -28,5 +27,5 @@ text {
   font-family: pragmatica, sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 1vw;
+  font-size: 2vw;
 }
