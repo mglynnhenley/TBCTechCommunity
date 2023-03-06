@@ -5,24 +5,26 @@ body {
     color:  #d4d7fc;
     font-family: pragmatica, sans-serif;
     font-style: normal;
-    font-size: 4.5vh;
-    padding: 5%;
+    font-size: 1vw;
+    padding: 10%;
     font-weight: lighter;
   }
 
+
 h1 {
 	color: #d4d7fc;
-    font-family: 'Pragmatica', sans-serif;
-    font-style: normal;
-    font-size: 9vw;
+    font-family: pragmatica, sans-serif;
+    font-style: lighter;
+    font-size: 5vw;
     align-self: flex-start;
+	line-break: 1vw;
   }
+
   
 .bar {
 	position: sticky;
-    top: 2rem;
+	align-self: flex-end;
 }
-
   /* Strikethrough */
 
 .strikethrough {
