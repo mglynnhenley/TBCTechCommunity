@@ -29,7 +29,7 @@ p {
 }
   
 text {
-  color:  #d4d7fc;
+  color:  #f9f9f9;
   font-family: pragmatica, sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -41,9 +41,9 @@ text {
     left:0;
     font-size: 1.3vw;
     overflow: scroll;
-    color:white;
+    color:white !important;
     font-family: sans-serif;
-    letter-spacing: .1rem;
+    letter-spacing: .5rem !important;
     line-height: 1.6rem;
     padding: 0; margin: 0;
 
