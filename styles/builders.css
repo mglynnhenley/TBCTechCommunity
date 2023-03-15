@@ -24,7 +24,7 @@ h1 {
   }
 
 p {
-  color:  #d4d7fc;
+  color:  #ffffff;
   font-size: 1.3vw;
 }
   
@@ -43,8 +43,8 @@ text {
     overflow: scroll;
     color:white !important;
     font-family: sans-serif;
-    letter-spacing: .5rem !important;
-    line-height: 1.6rem;
+    letter-spacing: .2rem !important;
+    line-height: 1.6rem !important;
     padding: 0; margin: 0;
 
 }
