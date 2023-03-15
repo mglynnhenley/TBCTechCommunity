@@ -5,6 +5,12 @@
   src: local('Pragmatica'), url('https://fonts.cdnfonts.com/s/14549/Pragmatica.woff') format('woff');
 }
 
+text {
+  font-size: 2vh;
+  color: black;
+  font-family: pragmatica, sans-serif;
+}
+
 body {
     background-color: black;
     color:  white;
@@ -41,12 +47,11 @@ hr {
 }
 
 p {
-  color: #d4d7fc;
-  font-family: pragmatica, sans-serif;;
+    color: #000000;
+    font-family: pragmatica, sans-serif;;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 72px;
-
+    font-size: 25px;
 }
 
 img {
@@ -68,7 +73,7 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, 0.8);
     visibility: hidden;
   }
 
@@ -80,7 +85,7 @@ img {
 .popup {
     width: 60%;
     height: 60%;
-    background: black;
+    background: #d4d7fc;
     position: absolute;
     top: 0;
     right: 0;
@@ -89,6 +94,8 @@ img {
     margin: auto;
     box-sizing: border-box;
     padding: 100px;
+    box-shadow: 6px 6px #31313b;
+    border-radius: 3px;
   }
 
 .heading {
@@ -130,3 +137,4 @@ img {
 .clear{
   clear: both;
 }
+

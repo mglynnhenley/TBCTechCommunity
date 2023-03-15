@@ -14,85 +14,87 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
 </head>
 
-<body style="width: 100vw; height: 100vh">
+<body style="width: 100vw; height: 30vh">
     <div class="heading">
         <div class="row justify-content-between">
             <div class="col-2">
                 <h1>workshop</h1>
             </div>
             <div class="col-2">
-                    <a href="./index.html" rel="history">
-                        <img src="./images/white short logo.png" style="max-width: 50%">
-                    </a>
-                </div>
+                <a href="./index.html" rel="history">
+                    <img src="./images/white short logo.png" style="max-width: 50%">
+                </a>
             </div>
         </div>
     </div>
-    <section id="gallery">            
-            <div class="row grid-wrapper">
-                <div class="col grid-block">
-                    <h2>article</h2>
-                    <div class="slideshow-block">
-                        <div class="slides" onclick="popout('password-popup')">
-                            <img src="images/workshop/Article/Hoffman_1K.jpeg" />
-                            <img src="images/workshop/Article/9.png" />
-                            <img src="images/workshop/Article/IMG_0013.jpg" />
-                            <img src="images/workshop/Article/Screenshot 2023-02-17 at 19.39.40.png" />
-                            <img src="images/workshop/Article/Screenshot 2023-02-17 at 19.40.14.png" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col grid-block">
-                    <h2 style="text-align:right">workshop</h2>
-                    <div class="slideshow-block">
-                        <div class="slides" onclick="popout('password-popup')">
-                            <img src="images/workshop/Books/4 .jpg" />
-                            <img src="images/workshop/Books/6.jpg" />
-                            <img src="images/workshop/Books/11.jpg" />
-                            <img src="images/workshop/Books/15.jpg" />
-                            <img src="images/workshop/Books/build.jpeg" />
-                        </div>
+    </div>
+    <section id="gallery">
+        <div class="row grid-wrapper">
+            <div class="col grid-block">
+                <h2>article</h2>
+                <div class="slideshow-block">
+                    <div class="slides" onclick="popout('password-popup')">
+                        <img src="images/workshop/Article/Hoffman_1K.jpeg" />
+                        <img src="images/workshop/Article/9.png" />
+                        <img src="images/workshop/Article/IMG_0013.jpg" />
+                        <img src="images/workshop/Article/Screenshot 2023-02-17 at 19.39.40.png" />
+                        <img src="images/workshop/Article/Screenshot 2023-02-17 at 19.40.14.png" />
                     </div>
                 </div>
             </div>
-            <div class="row grid-wrapper">
-                <div class="col grid-block">
-                    <h2>doc + film</h2>
-                    <div class="slideshow-block">
-                        <div class="slides" onclick="popout('password-popup')">
-                            <img src="images/workshop/Doc:Film/0_08BJBO2ORQkywQ--.jpeg" />
-                            <img src="images/workshop/Doc:Film/16.jpg" />
-                            <img src="images/workshop/Doc:Film/dropput.jpeg" />
-                            <img src="images/workshop/Doc:Film/maxresdefault.jpeg" />
-                            <img src="images/workshop/Doc:Film/p20224_v_h9_ap.jpeg" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col grid-block">
-                    <h2 style="text-align:right">podcast</h2>
-                    <div class="slideshow-block">
-                        <div class="slides" onclick="popout('password-popup')">
-                            <img src="images/workshop/Podcasts/14.jpg" />
-                            <img src="images/workshop/Podcasts/fallback.jpeg" />
-                            <img src="images/workshop/Podcasts/Master that scale.jpeg" />
-                            <img src="images/workshop/Podcasts/timferrissshowart-1400x1400.jpeg" />
-                        </div>
+            <div class="col grid-block">
+                <h2 style="text-align:right">workshop</h2>
+                <div class="slideshow-block">
+                    <div class="slides" onclick="popout('password-popup')">
+                        <img src="images/workshop/Books/4 .jpg" />
+                        <img src="images/workshop/Books/6.jpg" />
+                        <img src="images/workshop/Books/11.jpg" />
+                        <img src="images/workshop/Books/15.jpg" />
+                        <img src="images/workshop/Books/build.jpeg" />
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row grid-wrapper">
+            <div class="col grid-block">
+                <h2>doc + film</h2>
+                <div class="slideshow-block">
+                    <div class="slides" onclick="popout('password-popup')">
+                        <img src="images/workshop/Doc:Film/0_08BJBO2ORQkywQ--.jpeg" />
+                        <img src="images/workshop/Doc:Film/16.jpg" />
+                        <img src="images/workshop/Doc:Film/dropput.jpeg" />
+                        <img src="images/workshop/Doc:Film/maxresdefault.jpeg" />
+                        <img src="images/workshop/Doc:Film/p20224_v_h9_ap.jpeg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col grid-block">
+                <h2 style="text-align:right">podcast</h2>
+                <div class="slideshow-block">
+                    <div class="slides" onclick="popout('password-popup')">
+                        <img src="images/workshop/Podcasts/14.jpg" />
+                        <img src="images/workshop/Podcasts/fallback.jpeg" />
+                        <img src="images/workshop/Podcasts/Master that scale.jpeg" />
+                        <img src="images/workshop/Podcasts/timferrissshowart-1400x1400.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 
     <div class="container-popup" id="password-popup">
         <div class="popup text-center" onclick="popAway('password-popup')">
-            <p class="text">apply to  TBCTECH for a key</p>
+            <p class="text" id="apply"></p>
             <a href="https://uj4lxg3ksce.typeform.com/to/Sbba3XDq">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30%" height="30%" fill="#d4d7fc" class="bi bi-key" viewBox="0 0 16 16">
-                <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
-                <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-              </svg>        
+                <svg id="key" xmlns="http://www.w3.org/2000/svg" width="30%" height="30%" fill="black" class="bi bi-key"
+                    viewBox="0 0 16 16" opacity="0">
+                    <path
+                        d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
+                    <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                </svg>
             </a>
-            </div>
+        </div>
     </div>
 
 </body>
@@ -116,13 +118,35 @@
 
     });
 
+    var i = 0;
+    var speed = 50; /* The speed/duration of the effect in milliseconds */
+    var txt = "apply to  TBCTECH for a key...."
+    var cancelled = false;
+ 
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("apply").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
     function popout(id) {
         document.getElementById(id).style.visibility = "visible";
+        i = 0;
+        speed = 50; /* The speed/duration of the effect in milliseconds */
+        var cancelled = false;
+        typeWriter();
     }
+
     function popAway(id) {
         document.getElementById(id).style.visibility = "hidden";
+        document.getElementById("apply").innerHTML = "";
+        var txt = "apply to  TBCTECH for a key..."
+        var i = 0;
+        var speed = 50; /* The speed/duration of the effect in milliseconds */
+        var cancelled = true;
     }
 </script>
-</body>
 
 </html>

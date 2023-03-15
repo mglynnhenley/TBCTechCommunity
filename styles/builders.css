@@ -14,6 +14,7 @@ body {
   padding-right: 20% !important;
 }
 
+
 h1 {
 	  color: #d4d7fc;
     font-family: pragmatica, sans-serif;
@@ -21,11 +22,29 @@ h1 {
     font-size: 4vw;
     align-self: flex-start;
   }
+
+p {
+  color:  #d4d7fc;
+  font-size: 1.3vw;
+}
   
 text {
   color:  #d4d7fc;
   font-family: pragmatica, sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 1.3vw;
+  font-size: 2vw;
+}
+
+#typewriter {
+    width: 100%;
+    left:0;
+    font-size: 1.3vw;
+    overflow: scroll;
+    color:white;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 1.6rem;
+    padding: 0; margin: 0;
+
 }

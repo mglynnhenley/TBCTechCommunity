@@ -25,22 +25,46 @@
         <text>
             <p>You asked yourself &lsquo;why is no-one else doing this&rsquo; and then realised you were the person to
                 do it.</p>
+            <p><br></p>
             <p style="text-align: right;">And so you are doing it.</p>
             <p><br></p>
             <p>You want to meet other people like that.</p>
+            <p><br></p>
             <p style="text-align: right;">But you don&rsquo;t have time for networking.</p>
             <p><br></p>
             <p>You&rsquo;re not interested in a room full of people attracted to the start-up aesthetic.</p>
+            <p><br></p>
             <p style="text-align: right;">You want advice from people who actually get it.</p>
             <p><br></p>
             <p>You want understanding of how hard it is.</p>
+            <p><br></p>
             <p style="text-align: right;">You want to learn about and from other sectors in the tech space.</p>
             <p><br></p>
             <p>You want conversations that lead to collaborations.</p>
+            <p><br></p>
             <p style="text-align: right;">You want connections as a means to make change.</p>
         </text>
     </div>
     </div>
+    <div class="flex-box">
+        <img style="width:100vw" src="./images/alldots.png"></img>
+        <p id="typewriter"></p>
+    </div>
+
 </body>
+<script>
+    var i = 0;
+    var txt = "   ⬜   ".repeat(2000)
+    var speed = 5;
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("typewriter").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+    typeWriter()
+</script>
 
 </html>
