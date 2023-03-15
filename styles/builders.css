@@ -39,7 +39,7 @@ text {
 #typewriter {
     width: 100%;
     left:0;
-    font-size: 1.3vw;
+    font-size: 13vw !important;
     overflow: scroll;
     color:white !important;
     font-family: sans-serif;
